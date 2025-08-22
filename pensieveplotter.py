@@ -61,6 +61,9 @@ st.write("An interactive tool for visualizing Extended Bayesian Skyline Plots (E
 
 # --- Sidebar Setup ---
 st.sidebar.image("PensievePlotter.png", use_container_width=True)
+st.sidebar.markdown(description_text)
+description_text = ('Developed by the EvoMol-Lab (github.com/evomol-lab).\n'
+                                'BioME, UFRN, Brazil (bioinfo.imd.ufrn.br)')
 st.sidebar.header("⚙️ Plotting Controls")
 burnin = st.sidebar.slider("Burn-in percentage", 0, 90, 10, 5, format="%d%%") / 100.0
 plot_type = st.sidebar.radio("Select Plot Type", ("EBSP Skyline Plot", "Event Times Histogram"))
