@@ -57,6 +57,7 @@ def get_times(df):
 # --- Streamlit UI and Plotting ---
 st.set_page_config(layout="wide")
 st.title("🧙 The Pensieve Plotter")
+st.write("An interactive tool for visualizing Extended Bayesian Skyline Plots (EBSP) from BEAST log files. See [documentation](https://github.com/jpmslima/PensievePlotter) for more details.")
 
 # --- Sidebar Setup ---
 st.sidebar.image("PensievePlotter.png", use_container_width=True)
