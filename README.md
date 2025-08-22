@@ -59,14 +59,11 @@ The application interface is controlled by the sidebar on the left.
 - Select Plot Type:
     - EBSP Skyline Plot: The main plot showing effective population size through time.
     - Event Times Histogram: A histogram showing the distribution of event times (e.g., coalescence or migration events) from the log.
-
-#### Skyline Plot Options
+### Skyline Plot Options
 These options appear only when "EBSP Skyline Plot" is selected.
-
 - Confidence Interval: Choose to display the shaded region as either 95% HPD or 95% CPD.
 - Reverse Time Axis: When checked (default), the X-axis is reversed, showing time increasing from right to left (e.g., 0 years before present is on the right).
 - Use Log Scale for Y-Axis: When checked (default), the Y-axis (Effective Population Size) is displayed on a logarithmic scale, which is ideal for viewing large demographic changes.
 
-#### Set X-axis Range (Optional):
-
+### Set X-axis Range (Optional):
 - X-axis Min / Max: Manually enter minimum and maximum values to zoom in on a specific time interval. Leave blank for an automatic range.
